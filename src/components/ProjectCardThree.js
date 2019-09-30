@@ -11,10 +11,10 @@ export default function ProjectCardThree() {
         <Col>
             <Card style={{ border: 'none'}}>
                 <CardBody>
-                <CardTitle> <h4 className="text-secondary">React Wars</h4> </CardTitle>
+                <CardTitle> <h4 className="text-secondary"><a href="https://github.com/cauld19/nasa-photo-of-the-day" className="text-decoration-none">Photo of the Day</a></h4> </CardTitle>
                 <hr />
                 {/* <CardSubtitle> <h4>Born: {props.birthYear}</h4></CardSubtitle> */}
-                <CardText>An app that makes an API call and from that data constructs a series of cards. Functionality to go through all sets of data.  </CardText>
+                <CardText>An app that makes an API call and from that data displays a photo with accompanying information. Functionality to go to select previous, next, random, or a specific date.  </CardText>
                 <CardImg></CardImg>
                 </CardBody>
             </Card>
