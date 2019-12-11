@@ -11,10 +11,10 @@ export default function ProjectCardOne() {
         <Col>
             <Card style={{ border: 'none'}}>
                 <CardBody>
-                <CardTitle> <h4 className="text-secondary"><a href="https://github.com/cauld19/lambda-calculator"className="text-decoration-none">React Calculator</a></h4> </CardTitle>
+                <CardTitle> <h4 className="text-secondary"><a href="https://my-app.cauld19.now.sh"className="text-decoration-none">Kanye West Quote Generator</a></h4> </CardTitle>
                 <hr />
                 {/* <CardSubtitle> <h4>Born: {props.birthYear}</h4></CardSubtitle> */}
-                <CardText>Constructed a fully functional calculator in React with hooks.  </CardText>
+                <CardText>Click for an entertaining and enlightening Kanye West quote  </CardText>
                 <CardImg></CardImg>
                 </CardBody>
             </Card>
